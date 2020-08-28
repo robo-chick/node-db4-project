@@ -1,0 +1,32 @@
+exports.seed = async function(knex) {
+  await knex("ingredients").insert([
+    {name:"cup of flour", quantity: 2},
+    {name:"cup of buttermilk", quantity: 1},
+    {name:"egg", quantity: 1},
+    {name:"chicken breast", quantity: 4},
+    {name:"cup of marina sauce", quantity: 2},
+    {name:"cup of parmesan cheese", quantity: 2},
+    {name:"pinch of Italian seasoning", quantity: 1},
+    {name:"pinch of salt", quantity: 1},
+    {name:"cup of Italian breadcrumbs", quantity: 2},
+    {name:"egg", quantity: 4},
+    {name:"cup of beef broth", quantity: 4},
+    {name:"cup of light beer", quantity: 1},
+    {name:"cup of wheat flour", quantity: 1},
+    {name:"carrot", quantity: 3},
+    {name:"parsnips", quantity: 3},
+    {name:"lbs of London Broil", quantity: 3},
+    {name:"pinch of Oregano", quantity: 1},
+    {name:"garlic", quantity: 1},
+    {name:"15 oz can of potato", quantity: 1},
+    {name:"28 oz can of plum tomato", quantity: 1},
+    {name:"lbs ground beef", quantity: 1},
+    {name:"14oz can stewed tomato", quantity: 2},
+    {name:"14oz can dark kidney beans", quantity: 2},
+    {name:"14oz can light kidney beans", quantity: 2},
+    {name:"10oz can tomato paste", quantity: 1},
+    {name:"large red onion", quantity: 1},
+    {name:"jalapeno", quantity: 1},
+    {name:"tbsp chili powder", quantity: 1}
+  ])
+}
