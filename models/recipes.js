@@ -4,7 +4,7 @@ function getRecipes() {
     return db("recipes")
 }
 
-function getRecipesById(id) {
+function getRecipeById(id) {
     return db("recipes")
         .where("id", id)
         .first()
@@ -24,6 +24,6 @@ function getShoppingList(recipe_id) {
 
 module.exports = {
     getRecipes,
-    getRecipesById,
+    getRecipeById,
     getShoppingList
 }
